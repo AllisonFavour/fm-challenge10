@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 18px;
+}
+
+body {
+  background-color: hsl(226, 43%, 10%);
+  font-family: "Rubik";
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 350px;
+  height: -moz-max-content;
+  height: max-content;
+  color: hsl(0, 0%, 100%);
+  min-width: 340px;
+  max-width: 1440px;
+  padding: 0.8rem;
+}
+
+.container {
+  padding-block: 1rem;
+  position: relative;
+}
+
+.box {
+  width: 100%;
+  border-radius: 12px;
+  margin-block-end: 1.2rem;
+}
+
+.profile-box {
+  background-color: hsl(235, 46%, 20%);
+}
+.profile-box .profile {
+  background-color: hsl(246, 80%, 60%);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.profile-box .profile .avatar-img {
+  width: 60px;
+  height: 60px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+}
+.profile-box .profile .report-name {
+  display: flex;
+  flex-direction: column;
+}
+.profile-box .profile .report-name .report {
+  color: hsl(236, 100%, 87%);
+  font-size: 0.6rem;
+  font-weight: 300;
+}
+.profile-box .profile .report-name .name {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.profile-box .dates {
+  color: hsl(236, 100%, 87%);
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-inline: 1.4rem;
+}
+.profile-box .dates span {
+  cursor: pointer;
+}
+.profile-box .dates .active {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+
+.position {
+  padding: 0;
+  padding-block-start: 1.4rem;
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  border: none;
+}
+.position .img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -8px;
+  right: 10px;
+  z-index: 1;
+}
+.position .flex {
+  position: relative;
+  z-index: 4;
+  background-color: hsl(235, 46%, 20%);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.position .flex .top,
+.position .flex .bottom {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.position .flex .top span {
+  font-size: 1rem;
+}
+.position .flex .top img {
+  cursor: pointer;
+}
+.position .flex .bottom span {
+  font-size: 1.5rem;
+}
+.position .flex .bottom span + span {
+  color: hsl(236, 100%, 87%);
+  font-size: 0.7rem;
+}
+.position .flex .bottom span + span span {
+  font-size: 0.7rem;
+}
+
+.work {
+  background-color: hsl(15, 100%, 70%);
+}
+
+.play {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.study {
+  background-color: hsl(348, 100%, 68%);
+}
+
+.exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+
+.social {
+  background-color: hsl(264, 64%, 52%);
+}
+
+.self-care {
+  background-color: hsl(43, 84%, 65%);
+  margin-block-end: 0;
+}
+
+footer {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding-block-end: 1rem;
+}/*# sourceMappingURL=index.css.map */
